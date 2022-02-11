@@ -23,12 +23,18 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="ny8-yI-lnD"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JOK-wK-jED">
                                         <rect key="frame" x="0.0" y="54" width="334" height="34"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="BJK-n8-qax"/>
+                                        </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yly-IA-L6A">
                                         <rect key="frame" x="0.0" y="108" width="334" height="36"/>
@@ -36,7 +42,7 @@
                                         <state key="normal" title="Log In"/>
                                         <connections>
                                             <action selector="loginButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="cBL-wM-gIh"/>
-                                            <segue destination="fsU-Us-STY" kind="presentation" modalPresentationStyle="fullScreen" id="jTM-nS-QkN"/>
+                                            <segue destination="fsU-Us-STY" kind="presentation" identifier="showWelcomeVC" modalPresentationStyle="fullScreen" id="jTM-nS-QkN"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -49,15 +55,15 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <state key="normal" title="Forgot User Name?"/>
                                         <connections>
-                                            <action selector="forgotUserNameButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="rfv-Au-aFZ"/>
+                                            <action selector="forgotRegisterData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m8J-9Q-MZN"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irl-F9-O6h">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irl-F9-O6h">
                                         <rect key="frame" x="233" y="0.0" width="101" height="27"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <state key="normal" title="Forgot Password?"/>
                                         <connections>
-                                            <action selector="forgotPasswordButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="lYe-Id-41v"/>
+                                            <action selector="forgotRegisterData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vzh-Ro-6Ov"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -75,7 +81,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="logInButton" destination="yly-IA-L6A" id="K2A-9P-sXJ"/>
                         <outlet property="passwordTF" destination="JOK-wK-jED" id="raR-bx-x9E"/>
                         <outlet property="userNameTF" destination="LFt-rF-9yy" id="2Tc-fa-kvF"/>
                     </connections>
