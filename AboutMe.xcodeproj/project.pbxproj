@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		D545F59927B16A76001DC124 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = SOURCE_ROOT; };
-		D5D64DF927AEDB040032505B /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D64DF927AEDB040032505B /* AboutMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D64DFC27AEDB040032505B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5D64DFE27AEDB040032505B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D5D64E0027AEDB040032505B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		D5D64DF027AEDB040032505B = {
 			isa = PBXGroup;
 			children = (
-				D5D64DFB27AEDB040032505B /* LoginApp */,
+				D5D64DFB27AEDB040032505B /* AboutMe */,
 				D5D64DFA27AEDB040032505B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		D5D64DFA27AEDB040032505B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5D64DF927AEDB040032505B /* LoginApp.app */,
+				D5D64DF927AEDB040032505B /* AboutMe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5D64DFB27AEDB040032505B /* LoginApp */ = {
+		D5D64DFB27AEDB040032505B /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
 				D5D64DFC27AEDB040032505B /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				D5D64E0727AEDB060032505B /* LaunchScreen.storyboard */,
 				D5D64E0A27AEDB060032505B /* Info.plist */,
 			);
-			path = LoginApp;
+			path = AboutMe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5D64DF827AEDB040032505B /* LoginApp */ = {
+		D5D64DF827AEDB040032505B /* AboutMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5D64E0D27AEDB060032505B /* Build configuration list for PBXNativeTarget "LoginApp" */;
+			buildConfigurationList = D5D64E0D27AEDB060032505B /* Build configuration list for PBXNativeTarget "AboutMe" */;
 			buildPhases = (
 				D5D64DF527AEDB040032505B /* Sources */,
 				D5D64DF627AEDB040032505B /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = LoginApp;
+			name = AboutMe;
 			productName = LoginApp;
-			productReference = D5D64DF927AEDB040032505B /* LoginApp.app */;
+			productReference = D5D64DF927AEDB040032505B /* AboutMe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D5D64DF427AEDB040032505B /* Build configuration list for PBXProject "LoginApp" */;
+			buildConfigurationList = D5D64DF427AEDB040032505B /* Build configuration list for PBXProject "AboutMe" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5D64DF827AEDB040032505B /* LoginApp */,
+				D5D64DF827AEDB040032505B /* AboutMe */,
 			);
 		};
 /* End PBXProject section */
@@ -291,12 +291,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LoginApp/Info.plist;
+				INFOPLIST_FILE = AboutMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = belka.LoginApp;
+				PRODUCT_BUNDLE_IDENTIFIER = belka.AboutMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -309,12 +309,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LoginApp/Info.plist;
+				INFOPLIST_FILE = AboutMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = belka.LoginApp;
+				PRODUCT_BUNDLE_IDENTIFIER = belka.AboutMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -324,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5D64DF427AEDB040032505B /* Build configuration list for PBXProject "LoginApp" */ = {
+		D5D64DF427AEDB040032505B /* Build configuration list for PBXProject "AboutMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5D64E0B27AEDB060032505B /* Debug */,
@@ -333,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5D64E0D27AEDB060032505B /* Build configuration list for PBXNativeTarget "LoginApp" */ = {
+		D5D64E0D27AEDB060032505B /* Build configuration list for PBXNativeTarget "AboutMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5D64E0E27AEDB060032505B /* Debug */,
